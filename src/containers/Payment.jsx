@@ -47,6 +47,12 @@ const Payment = () => {
             </div>
           </div>
         ))}
+        <div className="Payment-item">
+          <div className="Payment-element">
+            <h4>Total:</h4>
+            <span>$ {handleSumTotal(cart)}</span>
+          </div>
+        </div>
         <div className="Payment-button">
           <PayPalButton
             paypalOptions={paypalOptions}
