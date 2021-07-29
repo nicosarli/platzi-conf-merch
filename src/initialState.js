@@ -1,6 +1,13 @@
 export default {
   cart: [],
-  buyer: [],
+  buyer: [
+    {
+      address: {
+        lat: 37.4224764,
+        lng: -122.0842499,
+      },
+    },
+  ],
   orders: [],
   products: [
     {
